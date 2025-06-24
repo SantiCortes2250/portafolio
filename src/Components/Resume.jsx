@@ -15,13 +15,13 @@ const Resume = ({ isOpen, setIsOpen, setId }) => {
     {
       id: 2,
       company: "Eos Technology",
-      year: "date",
+      year: "date2",
       work: "Frontend Developer",
     },
     {
       id: 3,
       company: "Buses Armenia S.A",
-      year: "date2",
+      year: "date3",
       work: "Frontend Developer",
     }
   ];

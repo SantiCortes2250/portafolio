@@ -21,7 +21,7 @@ function Modal({ isOpen, setIsOpen, id }) {
     {
       id: 2,
       company: "Eos Technology",
-      year: "date",
+      year: "date2",
       work: "Frontend Developer",
       tasks: [
         "task6",
@@ -34,7 +34,7 @@ function Modal({ isOpen, setIsOpen, id }) {
     {
       id: 3,
       company: "Buses Armenia",
-      year: "date2",
+      year: "date3",
       work: "Frontend Developer",
       tasks: [
         "task11",
