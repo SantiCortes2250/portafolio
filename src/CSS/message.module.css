@@ -1,0 +1,51 @@
+.container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.containerOff{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+  
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    transition: all 1s;
+  
+}
+
+.containerOff p{
+    background-color: #009e66;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+
+.container p{
+    background-color: #009e66;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+    
+    
+}

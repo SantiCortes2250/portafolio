@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+.header{
+  width: 100%;
+  height: 46rem;
+  background-image: url(./Assets/img/background5.jpg);
+  background-size:cover;
+}
+
+.main{
+   background-color: #101010;
+   font-family: 'Rajdhani', sans-serif;
+}
+
+
+@media (min-width: 600px) {
+  .header{
+
+    height: 60rem;
+   
+  }
+
+
+}
+
+@media (min-width: 800px) {
+  .header{
+
+    height: 75rem;
+   
+  }
+
+
+}
+
+
+@media (min-width: 1200px) {
+  .header{
+
+    height: 47rem;
+   
+  }
+  
+
+
+}
+
+
+
+
+
+
+

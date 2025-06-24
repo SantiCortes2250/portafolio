@@ -1,0 +1,182 @@
+.container{
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 170px;
+
+   
+}
+
+.section{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    line-height: 100%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  
+   
+
+    
+
+}
+
+.title{
+
+    font-family: 'Roboto';
+    font-weight: 900;
+    position: absolute;
+    left: -6px;
+    color: transparent;
+    font-size: 70px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px rgba(135, 135, 135, 0.575) ;
+    z-index: -1;
+   
+}
+
+.cardsC{
+    margin-top: 100px;
+}
+.cards{
+    width: 85%;
+  
+}
+
+.cardsC{
+    padding-left: 30px;
+ 
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+}
+
+.container h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    width: 75%;
+    height: 140px;
+    background-color: #161616;
+    border-bottom: 0.2px solid #5a5a5a;
+    border-left: 3px solid #009E66;
+    padding: 30px 20px 10px 45px;
+    
+}
+
+.info h4{
+    font-size: 20px;
+    color: white;
+
+}
+
+.info p{
+    font-size: 17px;
+    color: #5a5a5a;
+}
+
+
+.img{
+    position: absolute;
+    margin-top: 30px;
+}
+
+
+.info button{
+    width: 100px;
+    height: 30px;
+    background-color: #009E66;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (min-width: 600px) {
+
+    .container{
+        padding-top: 50px;
+    }
+ 
+  
+    .section {
+        left: 40px;
+        font-weight: 900;
+        font-size: 40px !important;
+    }
+  
+  
+    .title{
+        font-size: 90px;
+    }
+
+
+    .container h2{
+      
+        font-size: 35px;
+    
+    }
+
+    .info h4{
+        width: 90%;
+        font-size: 23px;
+      
+    
+    }
+    
+    .info p{
+        font-size: 20px;
+     
+    }
+    
+  
+  
+    
+  }
+
+  
+@media (min-width: 1200px) {
+    .section {
+      left: 80px;
+  
+    }
+
+    
+.cardsC{
+
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+
+   
+  
+  
+    
+  
+  }
+

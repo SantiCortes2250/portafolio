@@ -1,0 +1,269 @@
+.container{
+    display: flex;
+
+    flex-direction: column;
+ 
+    height: 68rem;
+    grid-gap: 50px;
+    padding-left: 30px;
+    
+
+  
+
+}
+
+.section{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    line-height: 100%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 20px;
+    
+
+}
+
+.title{
+
+    font-family: 'Roboto';
+    font-weight: 900;
+    position: absolute;
+    left: -6px;
+    color: transparent;
+    font-size: 70px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px rgba(135, 135, 135, 0.575) ;
+    z-index: -1;
+}
+
+.form{
+    color: white;
+    margin-top: 100px;
+   
+ 
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+
+}
+.form form{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+
+}
+
+.form h2{
+    margin-bottom: 20px;
+}
+
+.form input{
+    outline: none;
+    background-color: #2d2d2d57;
+    border: none;
+    border-bottom: 1px solid rgba(63, 63, 63, 0.642);
+    width: 85%;
+    height: 30px;
+    padding: 7px 0px 7px 15px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Rajdhani', sans-serif;
+    
+
+}
+
+.form textarea{
+    font-family: 'Rajdhani', sans-serif;
+    outline: none;
+    background-color: #2d2d2d57;
+    border: none;
+    border-bottom: 1px solid rgba(63, 63, 63, 0.642);
+    width: 85%;
+    padding: 7px 0px 7px 15px;
+    color: white;
+    font-size: 17px;
+   
+}
+
+.form input:focus{
+    transition: all 1s;
+    border-bottom: 1px solid #009e66;
+
+}
+
+.form textarea:focus{
+    transition: all 1s;
+    border-bottom: 1px solid #009e66;
+
+}
+
+.form button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #009E66;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+.form button:hover{
+    background-color: #006642;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerInfo h2{
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.containerInfo p{
+    color: rgba(139, 138, 138, 0.642);
+    margin-bottom: 20px;
+
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 35px;
+    width: 40px;
+    margin-right: 10px;
+}
+.icons img{
+    
+    width: 40px;
+    width: 30px;
+}
+
+.info h4{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5px;
+    
+}
+
+@media (min-width: 600px) {
+    .container{
+       
+        padding-left: 40px;
+        
+    
+      
+    
+    }
+
+    .form h2{
+       font-size: 27px;
+    }
+
+    
+ 
+  
+    .section {
+        left: 40px;
+        font-weight: 900;
+        font-size: 40px;
+    }
+  
+  
+    .title{
+        font-size: 90px;
+    }
+
+    .email{
+        flex-direction: row;
+        width: 87%;
+        
+    }
+
+    
+.containerInfo h2{
+    font-size: 25px;
+    
+}
+
+.containerInfo p{
+   font-size: 20px;
+
+}
+
+    .info h4{
+      
+        font-size: 22px;
+     
+    }
+
+    .icons{
+    
+        grid-gap: 53px;
+ 
+    }
+  
+  
+    
+  }
+
+  
+@media (min-width: 1200px) {
+
+    .container{
+     
+        height: 40rem;
+     
+
+    
+    }
+    .section {
+      left: 80px;
+  
+    }
+
+    .forms{
+        display: flex;
+        flex-direction: row;
+        padding-left: 50px;
+        align-items: center;
+    
+    }
+
+    .form{
+        width: 50%;
+    }
+
+
+
+
+
+   
+  
+  
+    
+  
+  }

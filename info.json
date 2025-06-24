@@ -1,0 +1,138 @@
+{
+    "name" : "Santiago Rincon Cortes",
+    "From" : "Colombia",
+    "Phone" : "+57 300-605-2291",
+    "Email" : "santicortesrincon15@gmail.com",
+    "Description" : "I'm a Frontend Developer with extensive experience in web development. I am passionate about technology and am always looking for new ways to improve my skills and knowledge. My focus is on creating scalable and efficient web and mobile applications to improve the user experience.",
+    "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1677450084/perfil_qczy0y.png",
+    "Experience" : [
+        {
+            "id": 1,
+            "company": "DevoCamp",
+            "year": "2023",
+            "work" : "Frontend Developer",
+            "tasks" : [
+                "Develop user layout designs in a functional way so users can interact with content easily and intuitively.",
+                "Collaboration with other team members.",
+                "Create modular components for the development of user interfaces, which can be reused in different parts of the web page."
+            ]
+        },
+        {
+            "id": 2,
+            "company": "Buses Armenia",
+            "year": "2022 - 2022",
+            "work" : "Frontend Developer",
+            "tasks" : [
+                "Development of web pages.",
+                "Performance optimization.",
+                "Component Functionality.",
+                "Research and development of new technologies.",
+                "Movile Desing."
+            ]
+        },
+        {
+            "id": 3,
+            "company": "Booker",
+            "year": "2021 - 2022",
+            "work" : "Frontend Developer",
+            "tasks" : [
+                "Development of user interfaces.",
+                "Implementation of UX/UI designs.",
+                "Component programming.",
+                "Integration of APIs and web services.",
+                "using git and github",
+                "First Mobile."
+            ]
+        }
+    ],
+    "Education" : [
+        {
+            "certificate" : "Technologist in analysis and development of information systems",
+            "year" : "2020 - 2022",
+            "university" : "SENA"
+        },
+        {
+            "certificate" : "Software programming technician",
+            "year" : "2019 - 2020",
+            "university" : "SENA"
+        },
+        {
+            "certificate" : "Baccalaureate",
+            "year" : "2020",
+            "university" : "Marcelino Champagnat"
+        }
+    ],
+    "Skills" : [
+        {
+            "skill" : "HTML",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1678151821/Projects/icons/html-5_1_iva7el.png"
+        },
+         {
+            "skill" : "CSS",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1678152373/Projects/icons/css-3_2_oa9uvr.png"
+        },
+        {
+            "skill" : "Javascript",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1678152117/Projects/icons/js_o6nyki.png"
+        },
+        {
+            "skill" : "React JS",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1678152076/Projects/icons/fisica_1_wexe1t.png"
+        },
+        {
+            "skill" : "Node JS",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1678151745/Projects/icons/node_ucljkh.png"
+        },
+        {
+            "skill" : "Redux",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1678151735/Projects/icons/redux_sd5vlv.png"
+        }
+        
+    ],
+    "Projects" : [
+       
+        {
+            "project" : "Movie-Time",
+            "Link" : "https://movie-timeee.netlify.app/",
+            "github" : "https://github.com/SantiCortes2250/React/tree/main/movie-time",
+            "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682295507/Projects/moviet_pyjmwn.png",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1677637696/Projects/icons/iconMovie_y38ivq.png"
+        },
+        {
+            "project" : "StailR",
+            "Link" : "https://stailr.netlify.app/",
+            "github" : "https://github.com/SantiCortes2250/React/tree/main/drinks",
+            "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682296233/Projects/bgcock_1_vvfphn.png",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682296118/Projects/icons/cock_k3rjvf.png"
+        },
+        {
+            "project" : "DashPro",
+            "Link" : "https://dashpro.netlify.app/",
+            "github" : "https://github.com/SantiCortes2250/React/tree/main/Projects",
+            "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682297243/Projects/dash_1_khcbd0.png",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682297004/Projects/icons/proje_tp7jbp.png"
+        },
+        {
+            "project" : "Booker",
+            "Link" : "https://bookerweb.netlify.app",
+            "github" : "https://github.com/SebasCepedaTobon/Booker/tree/Changes",
+            "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682295896/Projects/booker_1_tur1px.jpg",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1677637598/Projects/icons/iconBook_brp2ns.png"
+        }, {
+            "project" : "PixelFree",
+            "Link" : "https://pixelfree.netlify.app/",
+            "github" : "https://github.com/SantiCortes2250/React/tree/main/pixabay",
+            "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682296538/Projects/bg-img_1_xydwc6.png",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682296429/Projects/icons/img_ls6fmv.png"
+        },
+        {
+            "project" : "CriptoRC",
+            "Link" : "https://criptosrc.netlify.app/",
+            "github" : "https://github.com/SantiCortes2250/React/tree/main/cripto",
+            "image" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682296650/Projects/cripto_1_s1jm21.png",
+            "icon" : "https://res.cloudinary.com/dhbi86hxn/image/upload/v1682296747/Projects/icons/bitcoin_zg1hbp.png"
+        }
+    ]
+
+
+}

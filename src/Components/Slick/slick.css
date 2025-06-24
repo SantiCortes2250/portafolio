@@ -1,0 +1,21 @@
+
+
+
+.slick-next:before {
+  color:#595959 !important;
+  font-size:30px !important;
+}
+
+.slick-prev:before{
+  color:#595959 !important;
+  font-size:30px !important;
+}
+
+.slick-dots li button:before {
+  display: none;
+
+}
+
+
+
+

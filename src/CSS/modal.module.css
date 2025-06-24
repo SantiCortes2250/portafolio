@@ -1,0 +1,103 @@
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 4;
+    
+
+}
+
+
+
+.modal{
+    font-family: "Roboto";
+    position: fixed;
+    background-color: #161616;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    padding: 30px;
+   
+    
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal button{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+
+}
+
+.modal button img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.modal h2{
+    color: #009e66;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+
+.modal p{
+    color: #7575759d;
+    font-size: 25px;
+    margin-left: 30px;
+  
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    height: 100%;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+   
+}
+
+.task img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+   
+
+}
+
+.task p{
+    color: white;
+    font-size: 20px;
+  
+
+}
+
